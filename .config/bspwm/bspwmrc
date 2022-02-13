@@ -22,6 +22,9 @@ $HOME/.config/startup/./start.sh &
 # Mouse pointer
 xsetroot -cursor_name left_ptr &
 
+# Window Swallowing
+pgrep bspswallow || bspswallow &
+
 # Polybar config
 $HOME/.config/polybar/shades/./launch.sh &
 
