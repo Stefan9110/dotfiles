@@ -99,9 +99,13 @@ super + {o,i}
 super + e
 	winhide
 
-# focus or send to the given desktop
-super + {_,shift + }{1-5}
-	bspc {desktop -f,node -d} '^{1-5}'
+# or send to the given desktop
+super + shift + {0-5}
+	bspc node -d '^{1-6}'
+
+# focus to the given desktop
+super + {0-5}
+	bspc desktop -f '^{1-6}'
 
 # Swap between workspaces with arrows
 super + {bracketleft,bracketright}
