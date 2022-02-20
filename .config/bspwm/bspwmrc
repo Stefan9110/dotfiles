@@ -25,6 +25,9 @@ xsetroot -cursor_name left_ptr &
 # Window Swallowing
 pgrep bspswallow || bspswallow &
 
+# Get rid of caps lock lol
+setxkbmap -option caps:escape &
+
 # Polybar config
 $HOME/.config/polybar/shades/./launch.sh &
 
