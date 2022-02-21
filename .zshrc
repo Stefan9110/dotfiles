@@ -57,6 +57,7 @@ alias pdf='llpp'
 alias ssh="kitty +kitten ssh"
 alias usbmount="udisksctl mount -b"
 alias usbumount="udisksctl unmount -b"
+alias vimc=". newcproj"
 
 # More aliases
 if [ -f ~/.zsh_aliases ]; then
